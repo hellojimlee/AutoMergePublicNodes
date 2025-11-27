@@ -1,70 +1,41 @@
 proxies:
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
+  name: 15,16|香港|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|香港5|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: aes-256-gcm
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: ccf426f1fe78
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /zksuapgx
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.103.245.158
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇩🇪 德国|@ripaojiedian
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.176.29.99
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tfo: false
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 2569
+  server: 18.183.209.234
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: de6a05b7-6770-46b8-81b5-70675391db6a
-  port: 32001
-  server: vmvmvm123.jmvks.cn
-  tfo: false
-  type: ss
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
